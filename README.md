@@ -1,5 +1,5 @@
 <!-- Cloning Instructions -->
-![bg](blue)
+<span style="background-color: green">
 This is a template repository to be cloned when making a class intended to become part of the Aging Apprentice API (3API) class library. Instructions for using this template repository are as follows.  
 
 ## Clone this repo
@@ -7,14 +7,15 @@ This is a template repository to be cloned when making a class intended to becom
 
 ## Edit this README.md file</h2>
 * Put steps here.
+</span>
 
-![bg](white)
+---
 
 <!-- This is where your README file starts. Delete everyth0ing above -->
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Doxygen Action](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml/badge.svg?event=push)](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml)
 
-# Flash memory class 
+# Edit 1 - Put your title here 
 
 ## Table of contents
 * [Overview](#Overview)
@@ -29,17 +30,18 @@ This is a template repository to be cloned when making a class intended to becom
 * [Acknowledgements](#Acknowledgements)
 
 ## Overview
-This repository contains an Arduino class that writes variables to permanent
-memory to retain values through reboots. This is part of a series of classes 
+Edit 2 - Update this block of text with an explanation of what the class you are makaing does. For example: This repository contains an Arduino class that does winderful things. This is part of a series of classes 
 made to support a standard set of APIs for experimental robot platforms. 
 
 ## Dependencies
 This class depends on <a href="https://github.com/espressif/arduino-esp32">
 Arduino.h</a> being present on your system. This is the Arduino core library
 that comes bundled with PlatformIO.
+Edit 3 - Add other dependencies here.
 
 ## Author
 Written by Old Squire for the Aging Apprentice.
+Edit 4. Update author information above  and remove this line.
 
 ## Development environment
 This library was written using the following tools:
