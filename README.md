@@ -1,24 +1,16 @@
-<style>
-    .helpDiv 
-    {
-        background-color: #EBEBEB;
-    }
-</style>
+<!-- Cloning Instructions -->
+![bg](blue)
+This is a template repository to be cloned when making a class intended to become part of the Aging Apprentice API (3API) class library. Instructions for using this template repository are as follows.  
 
-<body>
-    <div class="helpDiv">
-      This is a template repository to be cloned when making a class intended to become part of the Aging Apprentice API (3API) class library. Instructions for using this template repository are as follows.  
+## Clone this repo
+* Put steps here.
 
-      <h2>1. Clone this repo</h2>
-      Put steps here.
+## Edit this README.md file</h2>
+* Put steps here.
 
-      <h2>2. Edit this README.md file</h2>
-      Put steps here.
-    </div>
-</body>
+![bg](white)
 
----
-
+<!-- This is where your README file starts. Delete everyth0ing above -->
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Doxygen Action](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml/badge.svg?event=push)](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml)
 
