@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['aaflash_0',['aaFlash',['../classaa_flash.html',1,'aaFlash'],['../classaa_flash.html#a94a2822a455f5c0d39130305a78a952b',1,'aaFlash::aaFlash()']]]
+  ['aatemplate_0',['aaTemplate',['../classaa_template.html',1,'aaTemplate'],['../classaa_template.html#a9d9ee35f134bfbd6a17d67473119b512',1,'aaTemplate::aaTemplate()']]]
 ];

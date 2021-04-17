@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>aaFlash: Main Page</title>
+<title>aaTemplate: Main Page</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,9 +22,9 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="aaLogo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">aaFlash
+   <div id="projectname">aaTemplate
    </div>
-   <div id="projectbrief">Store variables in permanent memory.</div>
+   <div id="projectbrief">Brief explanation of what class does.</div>
   </td>
  </tr>
  </tbody>
@@ -64,7 +64,7 @@ $(function() {
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">aaFlash Documentation</div>  </div>
+<div class="title">aaTemplate Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_README"></a></p>
@@ -72,26 +72,71 @@ $(function() {
 </span></p>
 <p><span style="background-color: green"></span></p>
 <h2><a class="anchor" id="autotoc_md4"></a>
-Clone this repo</h2>
+Make repo on Github</h2>
 <p><span style="background-color: green"></p><ul>
-<li>Put steps here.</li>
+<li>Put steps here on how to clone a repo to another repo in Github.</li>
 </ul>
 <p></span></p>
 <p><span style="background-color: green"></span></p>
 <h2><a class="anchor" id="autotoc_md5"></a>
-Edit this README.md file&lt;/h2&gt;</h2>
+Make local repo</h2>
 <p><span style="background-color: green"></p><ul>
-<li>Put steps here. </li>
+<li>Navigate to the project folder on your local hard drive.</li>
+<li>Issue the command <code>*git clone <a href="https://github.com/va3wam/">https://github.com/va3wam/</a>{project name}</code></li>
+<li>Navigate into the newly created directory <code>cd {project name}</code></li>
+<li>Create a local gh-pages branch to host Doxygen output<ul>
+<li>Issue the command <code>git checkout --orphan gh-pages</code></li>
+<li>Issue the command <code>git reset --hard</code></li>
+<li>Issue the command <code>git commit --allow-empty -m "Initializing gh-pages branch"</code></li>
+</ul>
+</li>
+<li>Invite new contributors if required to do the next steps.<ul>
+<li>Go to your new Github repo with yoour browser <br  />
+</li>
+<li>Settings/Manage Access/Invite a collaborator/enter name</li>
+</ul>
+</li>
+<li>Push local gh-pages branch to origin on Github<ul>
+<li>Back on local machine issue the command <code>git push origin gh-pages</code></li>
+<li>Issue the command <code>git checkout main</code></li>
+</ul>
+</li>
 </ul>
 <p></span></p>
-<p><span style="background-color: green"></p><hr  />
-<p></span></p>
-<p><span style="background-color: green"><a href="https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="LICENSE" style="pointer-events: none;" class="inline"/></a> <a href="https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml"><img src="https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml/badge.svg?event=push" alt="Doxygen Action" style="pointer-events: none;" class="inline"/></a></span></p>
 <p><span style="background-color: green"></span></p>
-<h1><a class="anchor" id="autotoc_md7"></a>
-Edit 1 - Put your title here</h1>
-<p><span style="background-color: green"> </span></p>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Edit Doxyfile</h2>
+<p><span style="background-color: green">There is a file called Doxyfile in the root of the repository. Make the following edits.</p><ul>
+<li>PROJECT_NAME = {project name}</li>
+<li>PROJECT_BRIEF = "Brief explanation of what class does."</li>
+</ul>
+<p></span></p>
+<p><span style="background-color: green"></span></p>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Edit this README.md file</h2>
+<p><span style="background-color: green"></p><ul>
+<li>The basic edits that you should make to this README file are noted below in bold text labelled ** Edit 1 ** through ** Edit 5 **. You may wish to make additional edits as you see fit.</li>
+<li>Once you are done with these instructions you can delete them starting from the top of the file and ending with the line below. What remains will be a well formatted README file. </li>
+</ul>
+<p></span></p>
+<p><span style="background-color: green"></span></p>
 <h2><a class="anchor" id="autotoc_md8"></a>
+Source Files</h2>
+<p><span style="background-color: green">Write the library using the tempates provided in the src direcotry off the root of this repo.</span></p>
+<p><span style="background-color: green"></span></p>
+<h2><a class="anchor" id="autotoc_md9"></a>
+Examples</h2>
+<p><span style="background-color: green"></span></p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Write at least one example script using the template in examples/simpleExample off the root of this repo.</h2>
+<p><span style="background-color: green"></span></p>
+<p><span style="background-color: green"><a href="https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="LICENSE" style="pointer-events: none;" class="inline"/></a> <a href="https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml"><img src="https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml/badge.svg?event=push" alt="Doxygen Action" style="pointer-events: none;" class="inline"/></a></span></p>
+<p><span style="background-color: green">** Edit 1 - update title **</span></p>
+<p><span style="background-color: green"></span></p>
+<h1><a class="anchor" id="autotoc_md11"></a>
+Put your title here</h1>
+<p><span style="background-color: green"> </span></p>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Table of contents</h2>
 <p><span style="background-color: green"></p><ul>
 <li><a href="#Overview">Overview</a></li>
@@ -107,19 +152,22 @@ Table of contents</h2>
 </ul>
 <p></span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Overview</h2>
-<p><span style="background-color: green">Edit 2 - Update this block of text with an explanation of what the class you are makaing does. For example: This repository contains an Arduino class that does winderful things. This is part of a series of classes made to support a standard set of APIs for experimental robot platforms.</span></p>
+<p><span style="background-color: green">** Edit 2 - Update this block of text with an explanation of what the class you are making does. For example: **</span></p>
+<p><span style="background-color: green">This repository contains an Arduino class that does winderful things. This is part of a series of classes made to support a standard set of APIs for experimental robot platforms.</span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Dependencies</h2>
-<p><span style="background-color: green">This class depends on <a href="https://github.com/espressif/arduino-esp32">Arduino.h</a> being present on your system. This is the Arduino core library that comes bundled with PlatformIO. Edit 3 - Add other dependencies here.</span></p>
+<p><span style="background-color: green">This class depends on <a href="https://github.com/espressif/arduino-esp32">Arduino.h</a> being present on your system. This is the Arduino core library that comes bundled with PlatformIO.</span></p>
+<p><span style="background-color: green">** Edit 3 - Add other dependencies here. **</span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Author</h2>
-<p><span style="background-color: green">Written by Old Squire for the Aging Apprentice. Edit 4. Update author information above and remove this line.</span></p>
+<p><span style="background-color: green">Written by Old Squire for the Aging Apprentice.</span></p>
+<p><span style="background-color: green">** Edit 4. Update author information above and remove this line. **</span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Development environment</h2>
 <p><span style="background-color: green">This library was written using the following tools:</p><ul>
 <li><a href="https://code.visualstudio.com/docs"><img src="/img/vscLogo.png" alt="" width="15" height="15" class="inline"/></a> Microsoft's Visual Studio Code source code editor.</li>
@@ -128,16 +176,16 @@ Development environment</h2>
 <p></span></p>
 <p><span style="background-color: green"><span style="color:green">suggestion:</span> If you are using the standard Arduino IDE for your project then you should probably avoid using this library unless you are comfortable navigating the subtle differences bewteen how your envoronment bahaves and how the environment used to create this library behaved.</span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Code documentation</h2>
-<p><span style="background-color: green">As part of our CI/CD software development process we use <a href="https://docs.github.com/en/actions">Github Actions</a> to automatically generate up-to-date documentation via <a href="https://www.doxygen.nl/index.html">Doxygen</a> every time the <b>main</b> branch gets updated. The output from Doxygen is placed in the <b>root</b> diretory of the <b>gh-pages</b> branch. This repository has an associated <a href="https://pages.github.com/">Github Pages</a> site that contains all of the Doxygen tags and assorted embedded comments from the code itself. This documentation can be viewed in your web browser <a href="https://theagingapprentice.github.io/aaFlash/html/index.html">here</a>. <br  />
+<p><span style="background-color: green">As part of our CI/CD software development process we use <a href="https://docs.github.com/en/actions">Github Actions</a> to automatically generate up-to-date documentation via <a href="https://www.doxygen.nl/index.html">Doxygen</a> every time the <b>main</b> branch gets updated. The output from Doxygen is placed in the <b>root</b> diretory of the <b>gh-pages</b> branch. This repository has an associated <a href="https://pages.github.com/">Github Pages</a> site that contains all of the Doxygen tags and assorted embedded comments from the code itself. This documentation can be viewed in your web browser ** Edit 5 - Update URL for Doxygen online docs ** <a href="https://theagingapprentice.github.io/aaTemplate/html/index.html">here</a>. <br  />
 </span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md18"></a>
 Microprocessor compatibility</h2>
 <p><span style="background-color: green">This library has only been tested on the <a href="https://learn.adafruit.com/adafruit-huzzah32-esp32-feather">Adafruit Huzzah32</a> development board containing the <a href="https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf">Espressif ESP WROOM32 SOC</a> featuring a pair of <a href="https://mirrobo.ru/wp-content/uploads/2016/11/Cadence_Tensillica_Xtensa_LX6_ds.pdf">Cadence/Xtensa®32-bit LX6 microprocessors</a>.</span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md19"></a>
 Installing</h2>
 <p><span style="background-color: green">These instructions assume that you have <a href="https://git-scm.com/">Git</a> installed on your computer.</span></p>
 <p><span style="background-color: green"></p><ol type="1">
@@ -147,7 +195,7 @@ Installing</h2>
 </ol>
 <p></span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="autotoc_md20"></a>
 Running tests</h2>
 <p><span style="background-color: green">As part of our CI/CD software development process we want to run automated tests every time new code is pushed to the main branch. To date we have not managed to do this though we have experimented with the PlatformIO C/C++ unit testing tool called <a href="https://github.com/ThrowTheSwitch/Unity">unity</a>. We have a dummy script called <a href="test/test_main.cpp">test_main.cpp</a> located located in the test directory off the root of the repository. This test does nothing useful at the moment and it may not even make sense to run tests on a class such as this. Full instructions on how to write and run these test can be found on the PlatformIO website <a href="https://docs.platformio.org/en/latest/tutorials/espressif32/arduino_debugging_unit_testing.html#writing-unit-tests">here</a>. If you wish to run the tests you must do so manally while in Visual Studio Code and PlatformIO:</span></p>
 <p><span style="background-color: green"></p><ol type="1">
@@ -173,7 +221,7 @@ Running tests</h2>
 </div><!-- fragment --><p></span></p>
 <p><span style="background-color: green">We are also looking at PlatformIO's support of <a href="https://docs.platformio.org/en/latest/integration/ci/github-actions.html">Github Actions</a> to see what can be accomplished for Arduino projects. We do not want to pay to use TravisCI.</span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 Releases</h2>
 <p><span style="background-color: green"></p><ul>
 <li>We use the <a href="http://semver.org/">SemVer</a> numbering scheme for our releases.</li>
@@ -181,12 +229,12 @@ Releases</h2>
 </ul>
 <p></span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md22"></a>
 Examples</h2>
 <p><span style="background-color: green">There is an <a href="https://github.com/theAgingApprentice/aaFlash/blob/main/examples/simpleExample/simpleExample.cpp">example sketch</a> that shows you how to use this class. <br  />
 </span></p>
 <p><span style="background-color: green"></span></p>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Acknowledgements</h2>
 <p><span style="background-color: green"></p><ul>
 <li>The many folks involved in porting the Arduino libraries over to the ESP32 SOC.</li>
