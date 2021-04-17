@@ -43,34 +43,34 @@
 
 /**
  * @class Write variables to flash memory.
- * ==========================================================================*/
+ ============================================================================*/
 aaTemplate::aaTemplate() 
 {
    Serial.println("<aaTemplate::aaTemplate> Default constructor running.");
-} //aaTemplate::aaTemplate()
+} // aaTemplate::aaTemplate()
 
 /**
  * @brief This is the destructor for this class.
-=============================================================================*/
+ =============================================================================*/
 aaTemplate::~aaTemplate() 
 {
    Serial.println("<aaTemplate::aaTemplate> Destructor running.");
-} //aaTemplate::aaTemplate()
+} // aaTemplate::aaTemplate()
 
 /**
  * @brief This is a public class that is exlained in one sentence.
  * @param int This is an explanation of what this parameter is for.
-=============================================================================*/
+ =============================================================================*/
 void examplePublicFunction(int var)
 {
-} //aaTemplate::examplePublicFunction()
+} // aaTemplate::examplePublicFunction()
 
 /**
  * @brief This is a private class with an underscore at the front of the name.
  * @return .
-=============================================================================*/
+ =============================================================================*/
 bool _examplePrivateFunction()
 {
    bool var = true;
    return var;
-} //aaTemplate::_examplePrivateFunction()
+} // aaTemplate::_examplePrivateFunction()
