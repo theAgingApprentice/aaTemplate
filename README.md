@@ -36,7 +36,7 @@ There is a file called Doxyfile in the root of the repository. Make the followin
 - PROJECT_BRIEF          = "Brief explanation of what class does."
 
 ## Source Files
-Write the library using the tempates provided in the src direcotry off the root of this repo.
+Write the library using the tempates provided in the src directory off of the root of this repo.
 
 ## Examples
 Write at least one example script using the template in examples/simpleExample off the root of this repo. 
