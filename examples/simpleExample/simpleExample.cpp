@@ -39,12 +39,12 @@
  * IN THE SOFTWARE.  
  *****************************************************************************/ 
 #include <Arduino.h> // Arduino Core for ESP32. Comes with Platform.io.
-#include <aaFlash.h> // Store values that persist past reboot.
+#include <aaTemplate.h> // Store values that persist past reboot.
 
 /**
  * Define global objects.
  * =================================================================================*/
-aaFlash flashMem; // Non-volatile memory management. 
+aaTemplate myRefVar; // Explain what this object reference is for. 
 
 /**
  * @brief Initialize the serial output with the specified baud rate measured in bits 
@@ -62,24 +62,10 @@ void setupSerial()
  * =================================================================================*/
 void setup()
 {
-   IPAddress ip1, ip2, ip3; // Declare IPAddress varaibles.
-   IPAddress tmpIp1(0,0,0,0); // Declare and initialize IPAddress variable.
-   IPAddress tmpIp2(1,1,1,1); // Declare and initialize IPAddress variable.
-
+   // Declare variables.
    setupSerial(); // Set serial baud rate. 
    Serial.println("<setup> Start of setup");
-
-   ip1 = flashMem.readBrokerIP(); // Read IP address from flash.
-   Serial.print("<simpleExample> IP Address = "); Serial.println(ip1);
-
-   flashMem.writeBrokerIP(tmpIp1); // Write IP address to flash.
-   ip2 = flashMem.readBrokerIP(); // Read IP address from flash.
-   Serial.print("<simpleExample> IP Address = "); Serial.println(ip2);
-
-   flashMem.writeBrokerIP(tmpIp2); // Write IP address to flash.
-   ip3 = flashMem.readBrokerIP(); // Read IP address from flash.
-   Serial.print("<simpleExample> IP Address = "); Serial.println(ip3);
-
+   // Call stuff here.
    Serial.println("<setup> End of setup");
 } // setup()
 

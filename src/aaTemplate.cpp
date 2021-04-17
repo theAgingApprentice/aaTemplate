@@ -1,5 +1,5 @@
 /******************************************************************************
- * @file aaFlash.cpp
+ * @file aaTemplate.cpp
  *
  * @mainpage the Aging Apprentice flash memory class 
  * 
@@ -39,53 +39,38 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
  * IN THE SOFTWARE.  
  *****************************************************************************/
-#include <aaFlash.h> // Header file for linking.
-Preferences preferences; // Save to flash for variables to persist past reset.
-const char* DEFAULT_MQTT_IP = "192.168.0.99"; // Default IP address.
-const char* FLASH_APP_NAME = "my_app"; // Argument for flash read.
+#include <aaTemplate.h> // Header file for linking.
 
 /**
  * @class Write variables to flash memory.
  * ==========================================================================*/
-aaFlash::aaFlash() 
+aaTemplate::aaTemplate() 
 {
-   Serial.println("<aaFlash::aaFlash> Default constructor running.");
-} //aaFlash::aaFlash()
+   Serial.println("<aaTemplate::aaTemplate> Default constructor running.");
+} //aaTemplate::aaTemplate()
 
 /**
  * @brief This is the destructor for this class.
 =============================================================================*/
-aaFlash::~aaFlash() 
+aaTemplate::~aaTemplate() 
 {
-   Serial.println("<aaFlash::aaFlash> Destructor running.");
-} //aaFlash::aaFlash()
+   Serial.println("<aaTemplate::aaTemplate> Destructor running.");
+} //aaTemplate::aaTemplate()
 
 /**
- * @brief Read MQTT broker IP address from flash memory.
- * @return IPAddress Value read from flash memory.
+ * @brief This is a public class that is exlained in one sentence.
+ * @param int This is an explanation of what this parameter is for.
 =============================================================================*/
-IPAddress aaFlash::readBrokerIP()
+void examplePublicFunction(int var)
 {
-   bool RW_MODE = false;
-   IPAddress addrIP; // Broker IP address in String format.
-   String addrStr; // Broker IP address in IPAddress format.
-   preferences.begin(FLASH_APP_NAME, RW_MODE); // Open flash in read/write mode.
-   addrStr = preferences.getString("brokerIP", DEFAULT_MQTT_IP).c_str(); // Read.
-   preferences.end(); // Close access to flash memory.
-   addrIP.fromString(addrStr); // Convert String to IPAddress format.
-   return addrIP;
-} //aaFlash::readBrokerIP()
+} //aaTemplate::examplePublicFunction()
 
 /**
- * @brief Write MQTT broker IP address to flash memory.
- * @param IPAddress IP address to be written to flash memory.
+ * @brief This is a private class with an underscore at the front of the name.
+ * @return .
 =============================================================================*/
-void aaFlash::writeBrokerIP(IPAddress address)
+bool _examplePrivateFunction()
 {
-   bool RW_MODE = false;
-   Serial.print("<aaFlash::write> Writing this address to flash memory: ");
-   Serial.println(address);
-   preferences.begin(FLASH_APP_NAME, RW_MODE); // Open flash in read/write mode.
-   preferences.putString("brokerIP", address.toString()); // Write IP address.
-   preferences.end(); // Close access to flash memory. 
-} //aaFlash::writeBrokerIP()
+   bool var = true;
+   return var;
+} //aaTemplate::_examplePrivateFunction()
