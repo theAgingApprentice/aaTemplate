@@ -12,16 +12,21 @@ This is a template repository to be cloned when making a class intended to becom
 - Navigate to the project folder on your local hard drive.
 - Issue the command `git clone https://github.com/va3wam/{project name}`
 - Navigate into the newly created directory `cd {project name}`
-- Create a local gh-pages branch to host Doxygen output
-   - Issue the command `git checkout --orphan gh-pages`
-   - Issue the command `git reset --hard`
-   - Issue the command `git commit --allow-empty -m "Initializing gh-pages branch"`
+- ~~Create a local gh-pages branch to host Doxygen output~~
+   - ~~Issue the command `git checkout --orphan gh-pages`~~
+   - ~~Issue the command `git reset --hard`~~
+   - ~~Issue the command `git commit --allow-empty -m "Initializing gh-pages branch"`~~
 - Invite new contributors if required to do the next steps. 
-   - Go to your new Github repo with yoour browser  
-   - Settings/Manage Access/Invite a collaborator/enter name
-- Push local gh-pages branch to origin on Github 
-   - Back on local machine issue the command `git push origin gh-pages`
-   - Issue the command `git checkout main`
+   - Go to your new Github repo with yoour browser.  
+   - Settings/Manage Access/Invite a collaborator/enter name.
+- ~~Push local gh-pages branch to origin on Github.~~ 
+   - ~~Back on local machine issue the command `git push origin gh-pages`.~~
+   - ~~Issue the command `git checkout main`.~~
+- Copy template platformio.ini file to root of your local repo.
+- Open project in PlatformIO.
+   - Start Visual Studio Code. 
+   - Start PlatformIO.
+- Open project.
 
 ## Edit Doxyfile
 There is a file called Doxyfile in the root of the repository. Make the following edits.
