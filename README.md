@@ -26,22 +26,23 @@ There is a file called Doxyfile in the root of the repository. Make the followin
 - PROJECT_BRIEF          = "Brief explanation of what class does."
 
 ## Edit this README.md file
-* The basic edits that you should make to this README file are noted below in bold text labelled ** Edit 1 ** through ** Edit 5 **. You may wish to make additional edits as you see fit.
+* The basic edits that you should make to this README file are noted below in bold text labelled **Edit 1** through **Edit 5**. You may wish to make additional edits as you see fit.
 * Once you are done with these instructions you can delete them starting from the top of the file and ending with the line below. What remains will be a well formatted README file. 
-</span>
 
 ## Source Files
 Write the library using the tempates provided in the src direcotry off the root of this repo.
 
 ## Examples
 Write at least one example script using the template in examples/simpleExample off the root of this repo. 
+
+</span>
 ---
 
 <!-- This is where your README file starts. Delete everyth0ing above -->
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Doxygen Action](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml/badge.svg?event=push)](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml)
 
-** Edit 1 - update title **
+**Edit 1 - update title**
 
 # Put your title here 
 
@@ -58,7 +59,7 @@ Write at least one example script using the template in examples/simpleExample o
 * [Acknowledgements](#Acknowledgements)
 
 ## Overview
-** Edit 2 - Update this block of text with an explanation of what the class you are making does. For example: ** 
+**Edit 2 - Update this block of text with an explanation of what the class you are making does. For example:** 
 
 This repository contains an Arduino class that does winderful things. This is part of a series of classes 
 made to support a standard set of APIs for experimental robot platforms. 
@@ -68,12 +69,12 @@ This class depends on <a href="https://github.com/espressif/arduino-esp32">
 Arduino.h</a> being present on your system. This is the Arduino core library
 that comes bundled with PlatformIO.
 
-** Edit 3 - Add other dependencies here. **
+**Edit 3 - Add other dependencies here.**
 
 ## Author
 Written by Old Squire for the Aging Apprentice.
 
-** Edit 4. Update author information above  and remove this line. **
+**Edit 4. Update author information above  and remove this line.**
 
 ## Development environment
 This library was written using the following tools:
