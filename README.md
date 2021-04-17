@@ -3,7 +3,10 @@
 This is a template repository to be cloned when making a class intended to become part of the Aging Apprentice API (3API) class library. Instructions for using this template repository are as follows.  
 
 ## Make repo on Github
-- Put steps here on how to clone a repo to another repo in Github.
+- Navigate to the Aging Apprentice template repo [here](https://github.com/theAgingApprentice/aaTemplate).
+- Click the Use this template button.
+- Follow the online instructions.
+- Be sure to click the *include all branches* option.
 
 ## Make local repo
 - Navigate to the project folder on your local hard drive.
