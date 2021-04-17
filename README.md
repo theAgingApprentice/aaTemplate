@@ -42,7 +42,7 @@ Write the library using the tempates provided in the src direcotry off the root 
 Write at least one example script using the template in examples/simpleExample off the root of this repo. 
 
 ## Edit this README.md file
-* The basic edits that you should make to this README file are noted below in bold text labelled **Edit 1** through **Edit 5**. You may wish to make additional edits as you see fit.
+* The basic edits that you should make to this README file are noted below in bold text labelled **Edit 1** through **Edit 7**. You may wish to make additional edits as you see fit.
 * Once you are done with these instructions you can delete them starting from the top of the file and ending with the line below. What remains will be a well formatted README file. 
 
 <!-- This is where your README file starts. Delete everyth0ing above -->
@@ -85,7 +85,7 @@ that comes bundled with PlatformIO.
 ## Author
 Written by Old Squire for the Aging Apprentice.
 
-**Edit 4. Update author information above  and remove this line.**
+**Edit 4. Update author information above and remove this line.**
 
 ## Development environment
 This library was written using the following tools:
@@ -110,8 +110,8 @@ time the **main** branch gets updated. The output from Doxygen is placed in the
 [Github Pages](https://pages.github.com/) site that contains all of the Doxygen
 tags and assorted embedded comments from the code itself. This documentation 
 can be viewed in your web browser 
-** Edit 5 - Update URL for Doxygen online docs **
-[here](https://theagingapprentice.github.io/aaTemplate/html/index.html).    
+**Edit 5 - Update URL {projectName} for Doxygen online docs**
+[here](https://theagingapprentice.github.io/{projectName}/html/index.html).    
 
 ## Microprocessor compatibility
 This library has only been tested on the [Adafruit Huzzah32](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather) development board containing the [Espressif ESP WROOM32 SOC](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) featuring a pair of [Cadence/Xtensa®32-bit LX6 microprocessors](https://mirrobo.ru/wp-content/uploads/2016/11/Cadence_Tensillica_Xtensa_LX6_ds.pdf). 
@@ -121,11 +121,11 @@ These instructions assume that you have [Git](https://git-scm.com/) installed on
 your computer.
 
 1. Navigate to the Arduino project directory on your computer.
-2. Issue the command `git clone https://github.com/theAgingApprentice/aaChip.git`.
+2. Issue the command `git clone https://github.com/theAgingApprentice/{projectName.git}`.
 3. Issue the command `git remote`. If you get back the response *origin* then 
 you are all set. If you get a blank response back then you must set up an 
 association to the remote repository by issuing the command `git remote add 
-origin https://github.com/theAgingApprentice/aaChip.git` to set up the remote. 
+origin https://github.com/theAgingApprentice/{projectName.git}` to set up the remote. 
 
 ## Running tests
 As part of our CI/CD software development process we want to run automated tests 
@@ -171,10 +171,10 @@ use TravisCI.
 
 ## Releases
 * We use the [SemVer](http://semver.org/) numbering scheme for our releases. 
-* The latest stable release is [v1.0.0](https://github.com/theAgingApprentice/aaFlash/releases/tag/v1.0.0). 
+* The latest stable release is [v1.0.0](https://github.com/theAgingApprentice/{projectName}/releases/tag/v1.0.0). **Edit 6 - replace {projectName}** 
 
 ## Examples
-There is an [example sketch](https://github.com/theAgingApprentice/aaFlash/blob/main/examples/simpleExample/simpleExample.cpp) that shows you how to use this class.   
+There is an [example sketch](https://github.com/theAgingApprentice/{projectName}/blob/main/examples/simpleExample/simpleExample.cpp) that shows you how to use this class. **Edit 7 - replace {projectName}**  
 
 ## Acknowledgements
 * The many folks involved in porting the Arduino libraries over to the ESP32 SOC.
