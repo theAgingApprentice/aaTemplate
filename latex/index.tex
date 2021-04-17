@@ -64,7 +64,7 @@ Write at least one example script using the template in examples/simple\+Example
 \hypertarget{index_autotoc_md9}{}\doxysubsection{Edit this README.\+md file}\label{index_autotoc_md9}
 
 \begin{DoxyItemize}
-\item The basic edits that you should make to this README file are noted below in bold text labelled {\bfseries{Edit 1}} through {\bfseries{Edit 5}}. You may wish to make additional edits as you see fit.
+\item The basic edits that you should make to this README file are noted below in bold text labelled {\bfseries{Edit 1}} through {\bfseries{Edit 7}}. You may wish to make additional edits as you see fit.
 \item Once you are done with these instructions you can delete them starting from the top of the file and ending with the line below. What remains will be a well formatted README file.
 \end{DoxyItemize}
 
@@ -104,7 +104,7 @@ This library was written using the following tools\+:
 \end{DoxyItemize}
 
 suggestion\+: If you are using the standard Arduino IDE for your project then you should probably avoid using this library unless you are comfortable navigating the subtle differences bewteen how your envoronment bahaves and how the environment used to create this library behaved.\hypertarget{index_autotoc_md17}{}\doxysubsection{Code documentation}\label{index_autotoc_md17}
-As part of our CI/\+CD software development process we use \href{https://docs.github.com/en/actions}{\texttt{ Github Actions}} to automatically generate up-\/to-\/date documentation via \href{https://www.doxygen.nl/index.html}{\texttt{ Doxygen}} every time the {\bfseries{main}} branch gets updated. The output from Doxygen is placed in the {\bfseries{root}} diretory of the {\bfseries{gh-\/pages}} branch. This repository has an associated \href{https://pages.github.com/}{\texttt{ Github Pages}} site that contains all of the Doxygen tags and assorted embedded comments from the code itself. This documentation can be viewed in your web browser $\ast$$\ast$ Edit 5 -\/ Update URL for Doxygen online docs $\ast$$\ast$ \href{https://theagingapprentice.github.io/aaTemplate/html/index.html}{\texttt{ here}}. ~\newline
+As part of our CI/\+CD software development process we use \href{https://docs.github.com/en/actions}{\texttt{ Github Actions}} to automatically generate up-\/to-\/date documentation via \href{https://www.doxygen.nl/index.html}{\texttt{ Doxygen}} every time the {\bfseries{main}} branch gets updated. The output from Doxygen is placed in the {\bfseries{root}} diretory of the {\bfseries{gh-\/pages}} branch. This repository has an associated \href{https://pages.github.com/}{\texttt{ Github Pages}} site that contains all of the Doxygen tags and assorted embedded comments from the code itself. This documentation can be viewed in your web browser {\bfseries{Edit 5 -\/ Update URL \{project\+Name\} for Doxygen online docs}} \href{https://theagingapprentice.github.io/{projectName}/html/index.html}{\texttt{ here}}. ~\newline
 \hypertarget{index_autotoc_md18}{}\doxysubsection{Microprocessor compatibility}\label{index_autotoc_md18}
 This library has only been tested on the \href{https://learn.adafruit.com/adafruit-huzzah32-esp32-feather}{\texttt{ Adafruit Huzzah32}} development board containing the \href{https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf}{\texttt{ Espressif ESP WROOM32 SOC}} featuring a pair of \href{https://mirrobo.ru/wp-content/uploads/2016/11/Cadence_Tensillica_Xtensa_LX6_ds.pdf}{\texttt{ Cadence/\+Xtensa®32-\/bit LX6 microprocessors}}.\hypertarget{index_autotoc_md19}{}\doxysubsection{Installing}\label{index_autotoc_md19}
 These instructions assume that you have \href{https://git-scm.com/}{\texttt{ Git}} installed on your computer.
@@ -112,8 +112,8 @@ These instructions assume that you have \href{https://git-scm.com/}{\texttt{ Git
 
 \begin{DoxyEnumerate}
 \item Navigate to the Arduino project directory on your computer.
-\item Issue the command {\ttfamily git clone \href{https://github.com/theAgingApprentice/aaChip.git}{\texttt{ https\+://github.\+com/the\+Aging\+Apprentice/aa\+Chip.\+git}}}.
-\item Issue the command {\ttfamily git remote}. If you get back the response {\itshape origin} then you are all set. If you get a blank response back then you must set up an association to the remote repository by issuing the command {\ttfamily git remote add origin \href{https://github.com/theAgingApprentice/aaChip.git}{\texttt{ https\+://github.\+com/the\+Aging\+Apprentice/aa\+Chip.\+git}}} to set up the remote.
+\item Issue the command {\ttfamily git clone \href{https://github.com/theAgingApprentice/{projectName.git}}{\texttt{ https\+://github.\+com/the\+Aging\+Apprentice/\{project\+Name.\+git\}}}}.
+\item Issue the command {\ttfamily git remote}. If you get back the response {\itshape origin} then you are all set. If you get a blank response back then you must set up an association to the remote repository by issuing the command {\ttfamily git remote add origin \href{https://github.com/theAgingApprentice/{projectName.git}}{\texttt{ https\+://github.\+com/the\+Aging\+Apprentice/\{project\+Name.\+git\}}}} to set up the remote.
 \end{DoxyEnumerate}\hypertarget{index_autotoc_md20}{}\doxysubsection{Running tests}\label{index_autotoc_md20}
 As part of our CI/\+CD software development process we want to run automated tests every time new code is pushed to the main branch. To date we have not managed to do this though we have experimented with the Platform\+IO C/\+C++ unit testing tool called \href{https://github.com/ThrowTheSwitch/Unity}{\texttt{ unity}}. We have a dummy script called \href{test/test_main.cpp}{\texttt{ test\+\_\+main.\+cpp}} located located in the test directory off the root of the repository. This test does nothing useful at the moment and it may not even make sense to run tests on a class such as this. Full instructions on how to write and run these test can be found on the Platform\+IO website \href{https://docs.platformio.org/en/latest/tutorials/espressif32/arduino_debugging_unit_testing.html\#writing-unit-tests}{\texttt{ here}}. If you wish to run the tests you must do so manally while in Visual Studio Code and Platform\+IO\+:
 
@@ -149,9 +149,9 @@ We are also looking at Platform\+IO\textquotesingle{}s support of \href{https://
 
 \begin{DoxyItemize}
 \item We use the \href{http://semver.org/}{\texttt{ Sem\+Ver}} numbering scheme for our releases.
-\item The latest stable release is \href{https://github.com/theAgingApprentice/aaFlash/releases/tag/v1.0.0}{\texttt{ v1.\+0.\+0}}.
+\item The latest stable release is \href{https://github.com/theAgingApprentice/{projectName}/releases/tag/v1.0.0}{\texttt{ v1.\+0.\+0}}. {\bfseries{Edit 6 -\/ replace \{project\+Name\}}}
 \end{DoxyItemize}\hypertarget{index_autotoc_md22}{}\doxysubsection{Examples}\label{index_autotoc_md22}
-There is an \href{https://github.com/theAgingApprentice/aaFlash/blob/main/examples/simpleExample/simpleExample.cpp}{\texttt{ example sketch}} that shows you how to use this class. ~\newline
+There is an \href{https://github.com/theAgingApprentice/{projectName}/blob/main/examples/simpleExample/simpleExample.cpp}{\texttt{ example sketch}} that shows you how to use this class. {\bfseries{Edit 7 -\/ replace \{project\+Name\}}} ~\newline
 \hypertarget{index_autotoc_md23}{}\doxysubsection{Acknowledgements}\label{index_autotoc_md23}
 
 \begin{DoxyItemize}
