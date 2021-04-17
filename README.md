@@ -22,7 +22,9 @@ This is a template repository to be cloned when making a class intended to becom
 - ~~Push local gh-pages branch to origin on Github.~~ 
    - ~~Back on local machine issue the command `git push origin gh-pages`.~~
    - ~~Issue the command `git checkout main`.~~
-- Copy template platformio.ini file to root of your local repo.
+- Move *template/use-this-platformio.ini* file to root of your local repo.
+- Rename *use-this-platformio.ini* to *platformio.ini*.
+- Delete *template* folder.
 - Open project in PlatformIO.
    - Start Visual Studio Code. 
    - Start PlatformIO.
