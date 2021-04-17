@@ -7,7 +7,7 @@ This is a template repository to be cloned when making a class intended to becom
 
 ## Make local repo
 - Navigate to the project folder on your local hard drive.
-- Issue the command `*git clone https://github.com/va3wam/{project name}`
+- Issue the command `git clone https://github.com/va3wam/{project name}`
 - Navigate into the newly created directory `cd {project name}`
 - Create a local gh-pages branch to host Doxygen output
    - Issue the command `git checkout --orphan gh-pages`
@@ -25,20 +25,21 @@ There is a file called Doxyfile in the root of the repository. Make the followin
 - PROJECT_NAME           = {project name}
 - PROJECT_BRIEF          = "Brief explanation of what class does."
 
-## Edit this README.md file
-* The basic edits that you should make to this README file are noted below in bold text labelled **Edit 1** through **Edit 5**. You may wish to make additional edits as you see fit.
-* Once you are done with these instructions you can delete them starting from the top of the file and ending with the line below. What remains will be a well formatted README file. 
-
 ## Source Files
 Write the library using the tempates provided in the src direcotry off the root of this repo.
 
 ## Examples
 Write at least one example script using the template in examples/simpleExample off the root of this repo. 
 
-</span>
----
+## Edit this README.md file
+* The basic edits that you should make to this README file are noted below in bold text labelled **Edit 1** through **Edit 5**. You may wish to make additional edits as you see fit.
+* Once you are done with these instructions you can delete them starting from the top of the file and ending with the line below. What remains will be a well formatted README file. 
 
 <!-- This is where your README file starts. Delete everyth0ing above -->
+---
+</span>
+
+
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
 [![Doxygen Action](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml/badge.svg?event=push)](https://github.com/theAgingApprentice/aaChip/actions/workflows/main.yml)
 
