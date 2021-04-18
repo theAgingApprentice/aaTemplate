@@ -17,7 +17,7 @@ This is a template repository to be cloned when making a class intended to becom
    - ~~Issue the command `git reset --hard`~~
    - ~~Issue the command `git commit --allow-empty -m "Initializing gh-pages branch"`~~
 - Invite new contributors if required to do the next steps. 
-   - Go to your new Github repo with yoour browser.  
+   - Go to your new Github repo with your browser.  
    - Settings/Manage Access/Invite a collaborator/enter name.
 - ~~Push local gh-pages branch to origin on Github.~~ 
    - ~~Back on local machine issue the command `git push origin gh-pages`.~~
@@ -72,8 +72,7 @@ Write at least one example script using the template in examples/simpleExample o
 ## Overview
 **Edit 2 - Update this block of text with an explanation of what the class you are making does. For example:** 
 
-This repository contains an Arduino class that does winderful things. This is part of a series of classes 
-made to support a standard set of APIs for experimental robot platforms. 
+This repository contains an Arduino class that does wonderful things. This is part of a series of classes made to support a standard set of APIs for experimental robot platforms. 
 
 ## Dependencies
 This class depends on <a href="https://github.com/espressif/arduino-esp32">
