@@ -77,15 +77,23 @@ Make repo on Github</h2>
 <li>Navigate to the Aging Apprentice template repo <a href="https://github.com/theAgingApprentice/aaTemplate">here</a>.</li>
 <li>Click the Use this template button.</li>
 <li>Follow the online instructions.</li>
-<li>Be sure to click the <em>include all branches</em> option.</li>
+<li>Be sure to click the <b>include all branches</b> option.</li>
+<li>Invite new contributors if required to do the next steps.<ul>
+<li>Go to your new Github repo with your browser. <br  />
+</li>
+<li>Settings/Manage Access/Invite a collaborator/enter name.</li>
+</ul>
+</li>
+<li>Click on the <b>Code</b> button then click on the clipboard to copy the URL.</li>
 </ul>
 <p></span></p>
 <p><span style="background-color: green"></span></p>
 <h2><a class="anchor" id="autotoc_md5"></a>
 Make local repo</h2>
 <p><span style="background-color: green"></p><ul>
+<li>Get into Visual Studio Code terminal window with no projects open.</li>
 <li>Navigate to the project folder on your local hard drive.</li>
-<li>Issue the command <code>git clone <a href="https://github.com/va3wam/">https://github.com/va3wam/</a>{project name}</code></li>
+<li>Issue the command <code>git clone <a href="https://github.com/theAgingApprentice/">https://github.com/theAgingApprentice/</a>{project name}</code> (you can paste the URL that you copied in the previous step)</li>
 <li>Navigate into the newly created directory <code>cd {project name}</code></li>
 <li><strike>Create a local gh-pages branch to host Doxygen output</strike><ul>
 <li><strike>Issue the command <code>git checkout --orphan gh-pages</code></strike></li>
@@ -93,20 +101,12 @@ Make local repo</h2>
 <li><strike>Issue the command <code>git commit --allow-empty -m "Initializing gh-pages branch"</code></strike></li>
 </ul>
 </li>
-<li>Invite new contributors if required to do the next steps.<ul>
-<li>Go to your new Github repo with your browser. <br  />
-</li>
-<li>Settings/Manage Access/Invite a collaborator/enter name.</li>
-</ul>
-</li>
 <li><strike>Push local gh-pages branch to origin on Github.</strike><ul>
 <li><strike>Back on local machine issue the command <code>git push origin gh-pages</code>.</strike></li>
 <li><strike>Issue the command <code>git checkout main</code>.</strike></li>
 </ul>
 </li>
-<li>Move <em>template/use-this-platformio.ini</em> file to root of your local repo.</li>
-<li>Rename <em>use-this-platformio.ini</em> to <em>platformio.ini</em>.</li>
-<li>Delete <em>template</em> folder.</li>
+<li>Rename <b>template_platformio.ini_tmp</b> to <b>platformio.ini</b> in the root of your repo.</li>
 <li>Open project in PlatformIO.<ul>
 <li>Start Visual Studio Code.</li>
 <li>Start PlatformIO.</li>
