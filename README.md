@@ -6,25 +6,25 @@ This is a template repository to be cloned when making a class intended to becom
 - Navigate to the Aging Apprentice template repo [here](https://github.com/theAgingApprentice/aaTemplate).
 - Click the Use this template button.
 - Follow the online instructions.
-- Be sure to click the *include all branches* option.
+- Be sure to click the **include all branches** option.
+- Invite new contributors if required to do the next steps. 
+   - Go to your new Github repo with your browser.  
+   - Settings/Manage Access/Invite a collaborator/enter name.
+- Click on the **Code** button then click on the clipboard to copy the URL. 
 
 ## Make local repo
+- Get into Visual Studio Code terminal window with no projects open.
 - Navigate to the project folder on your local hard drive.
-- Issue the command `git clone https://github.com/va3wam/{project name}`
+- Issue the command `git clone https://github.com/theAgingApprentice/{project name}` (you can paste the URL that you copied in the previous step)
 - Navigate into the newly created directory `cd {project name}`
 - ~~Create a local gh-pages branch to host Doxygen output~~
    - ~~Issue the command `git checkout --orphan gh-pages`~~
    - ~~Issue the command `git reset --hard`~~
    - ~~Issue the command `git commit --allow-empty -m "Initializing gh-pages branch"`~~
-- Invite new contributors if required to do the next steps. 
-   - Go to your new Github repo with your browser.  
-   - Settings/Manage Access/Invite a collaborator/enter name.
 - ~~Push local gh-pages branch to origin on Github.~~ 
    - ~~Back on local machine issue the command `git push origin gh-pages`.~~
    - ~~Issue the command `git checkout main`.~~
-- Move *template/use-this-platformio.ini* file to root of your local repo.
-- Rename *use-this-platformio.ini* to *platformio.ini*.
-- Delete *template* folder.
+- Rename **template_platformio.ini_tmp** to **platformio.ini** in the root of your repo.
 - Open project in PlatformIO.
    - Start Visual Studio Code. 
    - Start PlatformIO.
